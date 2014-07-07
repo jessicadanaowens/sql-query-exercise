@@ -51,6 +51,9 @@ We will be working with four tables: customers, items, orders, and orderitems.
 
 To connect to the database used in this exercise, run `psql -d exercisedb` from the command line.
 
+You'll need to create the exercisedb database first before running this command. Creating the database
+is covered in the first story in Tracker.
+
 ## Exercise
 
 For each story, copy the SQL output from psql into a text file in the output directory with the stories Tracker id.

@@ -1,0 +1,21 @@
+exercisedb=# SELECT customer_id, name                                                                            FROM orderitems JOIN items on orderitems.item_id = items.id                                                      JOIN orders on orders.id = orderitems.order_id                                                                   WHERE items.id = 8;
+ customer_id |  name  
+-------------+--------
+           5 | boot02
+           7 | boot02
+           4 | boot02
+           3 | boot02
+           1 | boot02
+           6 | boot02
+           3 | boot02
+          10 | boot02
+           7 | boot02
+          10 | boot02
+           4 | boot02
+           3 | boot02
+           5 | boot02
+           4 | boot02
+           5 | boot02
+           8 | boot02
+           8 | boot02
+           5 | boot02
